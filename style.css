@@ -1,0 +1,10 @@
+/* style.css file */
+body {
+    background-color: white
+}
+h1 {
+    /*sets the color in text of heading 1 to red */
+    color: black;
+    /* aligns the text of heading 1 to the center */
+    text-align: center;
+}
