@@ -1,7 +1,49 @@
 body {
     background-color: white
 }
-h1 {
+h2 {
     color: black;
+    text-align: center;
+}
+/* Styling the hyperlinks so that they appear at the top right corner of each page. */
+.nav-bar {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 26px;
+
+    a:hover {
+        color: blue;
+        text-decoration: underline;
+    }
+}
+/* Styling the buttons so they appear at the bottom center of the screen. */
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 100vh;
+
+    /* Styling the buttons. */
+    color: black;
+    font-family: Courier;
+    font-weight: bold;
+
+    /* Applying hover feature to the buttons on the home page. */
+    :hover {
+        color: blue;
+        text-decoration: underline;
+    }
+}
+/* Styling the navigation bar. */
+a {
+    margin-right: 25px;
+    color: black;
+    font-family: Courier;
+    font-weight: bold;
+}
+.page-header{
     text-align: center;
 }
