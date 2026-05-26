@@ -1,32 +1,35 @@
 <!--index.html file-->
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>My Portfolio</title>
-        <!-- Links CSS file to HTML -->
-        <link rel="stylesheet" href="./style.css">
-        <!-- Links JS file to HTML-->
-        <!-- defer is optional but allows HTML to load fully before script executes-->
-        <script src="./script.js" defer></script>
-    </head>
-    <body>
-        <h2>This is Nathan's Portfolio Web App</h2>
-        <h1 class="page-header">This is the Home Page</h1>
-        <!-- Adds navigation link identifiers-->
-        <!-- we use class since the navigation bar consists of all of the links -->
-        <header>
-            <nav class="nav-bar">
-                <a href="./index.html">Home</a>
-                <a href="./about_me.html">About Me</a>
-                <a href="./portfolio.html">Portfolio</a>
-                <a href="./contact.html">Contact</a>
-            </nav>
-        </header>
-         <!-- Add buttons to view resume and download resume as a pdf-->
-          <!-- we use the class name of button and store them in a div to position them together -->
-          <div class="button">
-            <button>View Resume</button>
-            <button>Download Resume as PDF</button>
-          </div>
-    </body>
+
+<head>
+    <title>My Portfolio</title>
+    <!-- Links CSS file to HTML -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Links JS file to HTML-->
+    <!-- defer is optional but allows HTML to load fully before script executes-->
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <h1 class="page-header">Nathan's Portfolio</h1>
+    <h2 class="page-header">Welcome</h2>
+    <!-- Adds navigation link identifiers-->
+    <!-- we use class since the navigation bar consists of all of the links -->
+    <header>
+        <nav class="nav-bar">
+            <a href="./index.html">Home</a>
+            <a href="./about_me.html">About Me</a>
+            <a href="./portfolio.html">Portfolio</a>
+            <a href="./contact.html">Contact</a>
+        </nav>
+    </header>
+    <!-- Add buttons to view resume and download resume as a pdf-->
+    <!-- we use the class name of button and store them in a div to position them together -->
+    <div class="button">
+        <button>View Resume</button>
+        <button>Download Resume as PDF</button>
+    </div>
+</body>
+
 </html>
