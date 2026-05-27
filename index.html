@@ -6,14 +6,16 @@
     <title>My Portfolio</title>
     <!-- Links CSS file to HTML -->
     <link rel="stylesheet" href="./style.css">
+    <!-- Link to icon library Font Aweome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Links JS file to HTML-->
     <!-- defer is optional but allows HTML to load fully before script executes-->
     <script src="./script.js" defer></script>
 </head>
 
 <body>
-    <h1 class="page-header">Nathan's Portfolio</h1>
-    <h2 class="page-header">Welcome</h2>
+    <h1 class="page-header">Nathan Yohannes</h1>
+    <h2 class="page-header">Hi, I'm Nathan, a Software Engineer with a focus on Web Development.</h2>
     <!-- Adds navigation link identifiers-->
     <!-- we use class since the navigation bar consists of all of the links -->
     <header>
@@ -30,6 +32,22 @@
         <button>View Resume</button>
         <button>Download Resume as PDF</button>
     </div>
+    <!-- Add profile picture present on the home page-->
+     <div class="center-image">
+         <img src="/images/profile_picture.jpeg" width="300" height="300">
+     </div>
+     <div class="icons">
+          <!-- Add GitHub Icon -->
+           <a href="https://github.com/Nathan-Yohannes">
+            <i class="fa-brands fa-github"></i>
+           </a>
+          <!-- Add LinkedIn Icon -->
+           <a href="https://www.linkedin.com/in/nathan-yohannes-a2546a35b/">
+            <i class="fa-brands fa-square-linkedin"></i>
+           </a>
+      </div>
+
+
 </body>
 
 </html>
