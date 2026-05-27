@@ -96,7 +96,7 @@ header {
     justify-content: center;
     gap: 1.5rem;
     min-height: 100vh;
-    padding-top: 80px;
+    padding-top: 175px;
 }
 
 /* Button Styling */
@@ -116,7 +116,29 @@ button {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     min-width: 250px;
 }
-
+/* Profile Picture Styling*/
+.center-image {
+    display: flex;
+    justify-content: center;
+    /* a negative translateY is used to shift the image upwards */
+    transform: translateY(-850px);
+}
+img {
+    /* makes the image circular */
+    border-radius: 50%;
+    border: 4px solid white;
+}
+/* Icon Styling */
+.icons{
+    text-align: center;
+    font-size: 30px;
+    /* a negative translateY is used to shift the icons upward */
+    transform: translateY(-810px);
+    a{
+      color: white;
+      text-decoration: none;  
+    }
+}
 button:hover {
     background: rgba(255, 255, 255, 0.25);
     border-color: rgba(255, 255, 255, 0.5);
