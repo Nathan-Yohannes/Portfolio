@@ -121,7 +121,7 @@ button {
     display: flex;
     justify-content: center;
     /* a negative translateY is used to shift the image upwards */
-    transform: translateY(-910px);
+    transform: translateY(-850px);
 }
 img {
     /* makes the image circular */
@@ -133,7 +133,7 @@ img {
     text-align: center;
     font-size: 30px;
     /* a negative translateY is used to shift the icons upward */
-    transform: translateY(-860px);
+    transform: translateY(-810px);
     a{
       color: white;
       text-decoration: none;  
