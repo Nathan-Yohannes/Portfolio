@@ -38,6 +38,13 @@ h1.page-header {
     color: #ffffff;
 }
 
+/* Text Styling For Paragraphs */
+p {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
 /* Navigation Bar Styling */
 header {
     position: fixed;
