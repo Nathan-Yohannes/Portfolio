@@ -38,6 +38,13 @@ h1.page-header {
     color: #ffffff;
 }
 
+/* Text Styling For Paragraphs */
+p {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+
 /* Navigation Bar Styling */
 header {
     position: fixed;
@@ -121,7 +128,7 @@ button {
     display: flex;
     justify-content: center;
     /* a negative translateY is used to shift the image upwards */
-    transform: translateY(-850px);
+    transform: translateY(-910px);
 }
 img {
     /* makes the image circular */
@@ -133,7 +140,7 @@ img {
     text-align: center;
     font-size: 30px;
     /* a negative translateY is used to shift the icons upward */
-    transform: translateY(-810px);
+    transform: translateY(-860px);
     a{
       color: white;
       text-decoration: none;  
