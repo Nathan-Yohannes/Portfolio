@@ -1,2 +1,2 @@
 # portfolio
-https://nathan-yohannes.github.io/Portfolio/
+https://github.com/Nathan-Yohannes
